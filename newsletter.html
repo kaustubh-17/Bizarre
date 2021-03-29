@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@700&display=swap" rel="stylesheet">
+<title>Bizarre</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/newsletter.css" type="text/css"/>
+</head>
+<body>
+<!--HEADER-->
+<div id="header">
+  <div id="logo">
+    <h1><span class = "heading">Bizarre</span></h1>
+    <p><span class="slogan">...... Because the greatest realization of universe is in unfolding the 'mysterious'.</span></p>
+  </div>
+  <div id="nav-bar">
+    <ul id="nav1">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="newsletter.html">Newsletter</a></li>
+     
+      <li><a href="contact.html">Our Team</a></li>
+    </ul>
+    <div id="nav2">
+      <form action="#" method="post" id="search-form">
+        <p>
+          
+        </p>
+      </form>
+      
+    </div>
+  </div>
+</div>
+<!--HEADER END-->
+<!--CONTENT-->
+<div id="content">
+  <!--MAIN-CONTENT-->
+  <div id="main-content">
+    <!--CONTENT 1 END-->
+    <div id="content-1">
+      <div class="featured">
+       <h3>Newsletter Subscription Form</h3><br />
+<form action="https://www.SnapHost.com/captcha/send.aspx" method="post" id="NewsletterSubscriptionForm" onsubmit="return ValidateForm(this);" target="_top">
+<input id="skip_WhereToSend" name="skip_WhereToSend" type="hidden" value="kaustubh765@gmail.com" />
+<input id="skip_SnapHostID" name="skip_SnapHostID" type="hidden" value="UMSGGBP99MDW" />
+<input id="skip_WhereToReturn" name="skip_WhereToReturn" type="hidden" value="https://www.snaphost.com/captcha/thankyou.aspx" />
+<input id="skip_Subject" name="skip_Subject" type="hidden" value="Newsletter Subscription Form" />
+<input id="skip_ShowUsersIp" name="skip_ShowUsersIp" type="hidden" value="1" />
+<script type="text/javascript">
+function ValidateForm(frm) {
+if (frm.Name.value == "") {alert('Name is required.');frm.Name.focus();return false;}
+if (frm.Organization.value == "") {alert('Organization is required.');frm.Organization.focus();return false;}
+if (frm.FromEmailAddress.value == "") {alert('Email address is required.');frm.FromEmailAddress.focus();return false;}
+if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) {alert('Please enter a valid email address.');frm.FromEmailAddress.focus();return false;}
+if (frm.skip_CaptchaCode.value == "") {alert('Enter security code.');frm.skip_CaptchaCode.focus();return false;}
+return true; }
+function ReloadCaptchaImage(captchaImageId) {
+var obj = document.getElementById(captchaImageId);
+var src = '' + obj.src;
+obj.src = '';
+var date = new Date();
+var pos = src.indexOf('&rad=');
+if (pos >= 0) { src = src.substr(0, pos); }
+obj.src = src + '&rad=' + date.getTime();
+return false; }
+</script>
+<table border="0" cellpadding="5" cellspacing="0" style="width:360px; margin:auto; text-align:left;">
+<tr><td class = "y">
+Name<br />
+<input id="Name" name="Name" type="text" placeholder = " Your name here" maxlength="60" style="width:340px; height: 25px;  border:1px solid #999999" />
+</td></tr><tr><td class = "y">
+<br>Email<br />
+<input id="FromEmailAddress" name="FromEmailAddress" placeholder = " Email" type="text" maxlength="60" style="width:340px;  height: 25px; border:1px solid #999999; text-align:left;" />
+</td></tr>
+<tr><td style="padding-bottom:18px;">
+<!-- Please check our ProCaptcha service which is ad-free:
+https://www.SnapHost.com/captcha/ProCaptchaOverview.aspx -->
+</td></tr>
+<tr><td align="center">
+<br />
+<img id="CaptchaImage" alt="Newsletter Subscription form" title="HTML code for Newsletter Subscription form" border="0" style="margin-bottom:10px;"
+src="https://www.SnapHost.com/captcha/CaptchaImage.aspx?id=UMSGGBP99MDW" />
+<br /><br><a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span class = "x" style="font-size:12px;">Reload Image<br></span></a>
+<br /><br>
+<i>Enter code here:</i>
+<input id="skip_CaptchaCode" name="skip_CaptchaCode" type="text" style="width:80px; height: 25px; border:1px solid #999999" maxlength="6" />
+<br /><br /><br />
+<input class = "sub" id="skip_Submit" formation = "subscribe.php" name="skip_Submit" type="submit" value="Subscribe" />
+</td></tr>
+</table>
+</form>
+        <div class="featured-meta">
+          <p> <span class="post-date">31/10/2020</span> | <span class="comments"><a href="#"></a></span> </p>
+        </div>
+      </div>
+      
+  
+    <div id="footer-content">
+      <p id="footer-text"> Copyright &copy; 2020 <span class = "creedorians">Creedorians</span><br><br>- All rights reserved.<br /></p>
+    </div>
+  </div>
+  <!--FOOTER END-->
+</div>
+<!--CONTENT END-->
+<!--CUFON-->
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/Gentium_Basic.font.js"></script>
+<script type="text/javascript" src="js/Bambi_Bold_400.font.js"></script>
+<script type="text/javascript">
+	Cufon.replace('h1',{ fontFamily: 'Bambi Bold' });
+	Cufon.replace('h2',{ fontFamily: 'Gentium Basic' });
+	Cufon.replace('h3',{ fontFamily: 'Gentium Basic' });
+</script>
+<script type="text/javascript"> Cufon.now(); </script>
+<!--CUFON END-->
+</body>
+</html>
